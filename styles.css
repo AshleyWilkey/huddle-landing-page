@@ -1,0 +1,257 @@
+body {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+main {
+  background-color: hsl(193, 100%, 96%);
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(208, 11%, 55%);
+  font-size: 14px;
+  padding: 0 1rem 1rem 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Poppins;
+  color: black;
+}
+
+.huddle-nav {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.huddle-nav-left,
+.huddle-nav-right {
+  flex: 1;
+  padding: 1rem;
+}
+
+.huddle-nav-right {
+  text-align: right;
+}
+.huddle-nav img {
+  height: 30px;
+}
+.try1 {
+  border: none;
+  border-radius: 3rem;
+  background-color: white;
+  padding: 0.5rem 1.6rem;
+  font-weight: 700;
+  font-size: 12px;
+  -webkit-box-shadow: -1px 9px 37px -12px hsl(208, 11%, 47%);
+  -moz-box-shadow: -1px 9px 37px -12px hsl(208, 8%, 47%);
+  box-shadow: -1px 9px 37px -12px hsl(208, 11%, 47%);
+}
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.huddle-community {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  max-width: 1440px;
+  margin-top: 2rem;
+}
+.huddle-community-info {
+  padding: 1rem;
+}
+.huddle-community-info h1 {
+  font-size: 1.8rem;
+}
+.huddle-community img {
+  padding: 3rem;
+}
+
+.start {
+  padding: 1rem 3rem;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: none;
+  border-radius: 3rem;
+  font-weight: 700;
+}
+.start:hover {
+  cursor: pointer;
+  background-color: hsl(322, 100%, 69%);
+}
+.huddle-info-section {
+  background-color: white;
+}
+.huddle-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 1260px;
+  background-color: white;
+  padding: 5rem 3.5rem;
+}
+.huddle-info:last-of-type {
+  padding-bottom: 8rem;
+}
+.huddle-info.reverse {
+  flex-direction: column-reverse;
+}
+
+.huddle-info div {
+  flex: 1;
+}
+.huddle-info h2 {
+  font-family: Poppins;
+  font-weight: 600;
+}
+.huddle-info p {
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(208, 11%, 55%);
+}
+.huddle-info img {
+  width: 100%;
+}
+.huddle-start {
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 0.75rem;
+  padding: 2rem 1rem;
+  top: -88px;
+}
+.huddle-footer-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 1260px;
+}
+.start2 {
+  padding: 1rem 3rem;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: none;
+  border-radius: 3rem;
+  font-weight: 700;
+}
+
+.footer-logo {
+  fill: white;
+}
+.huddle-contact {
+  display: flex;
+  margin-top: 1rem;
+}
+.huddle-contact div {
+  margin-right: 1rem;
+}
+.huddle-contact div img {
+  max-width: 13px;
+}
+.huddle-sec1 {
+  flex: 2;
+}
+.huddle-sec1 p {
+  margin: 0;
+}
+.huddle-sec2 {
+  flex: 1;
+}
+.huddle-sec3 {
+  flex: 1;
+}
+.huddle-sec4 {
+  flex: 1;
+  text-align: center;
+}
+.huddle-copyright {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  body {
+    text-align: left;
+  }
+
+  footer {
+    padding: 0 5rem 5rem 5rem;
+  }
+  .huddle-nav {
+    margin: 0 auto;
+  }
+  .huddle-nav-left,
+  .huddle-nav-right {
+    padding: 3rem 1rem;
+  }
+  .huddle-community-info h1 {
+    margin-right: 50%;
+  }
+  .huddle-community-info p {
+    margin-right: 30%;
+  }
+  .try1 {
+    padding: 0.8rem 3rem;
+  }
+  .container {
+    flex-direction: row;
+  }
+  .huddle-community-info {
+    padding-top: 5rem;
+  }
+  .huddle-community {
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  .huddle-community img {
+    height: 400px;
+  }
+  .huddle-info {
+    padding: 3rem 5rem;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .huddle-info.reverse {
+    flex-direction: row-reverse;
+  }
+  .huddle-info div {
+    padding: 4rem;
+  }
+  .huddle-start {
+    font-size: 0.8rem;
+    padding: 2rem 1rem;
+  }
+  .huddle-footer-container {
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .huddle-sec4 {
+    text-align: left;
+  }
+  .huddle-copyright {
+    text-align: right;
+    max-width: 1260px;
+    margin: 0 auto;
+  }
+}
